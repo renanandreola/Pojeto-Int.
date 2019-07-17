@@ -1,0 +1,92 @@
+header {
+  color: white;
+  font-size: 25px;
+  background-color: white;
+  text-align: center;
+   /*Aqui temos a parte inicial do código, o CABEÇALHO*/
+}
+
+header {
+  background: url(../images/integral-medica-suplementos.jpg);
+  background-position: -5%;
+}
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 70px;
+  position: relative;
+  /*Relacionado ao título principal*/
+}
+/*h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: transparent;
+  Relacionado a frase que está em baixo do título principal*/
+}
+
+div form {
+  	text-align-last: center;
+  /*Parte onde possui o local de pesquisa do produto*/
+}
+
+div form input {
+  border-width: 2px;
+  border-top: 2px;
+  line-height: 20px;
+}
+
+div form#busca button {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  /*Botão OK*/
+}
+
+.busca-input {
+  width: 450px;
+  height:30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  /*Relacionado a barra onde se faz a pesquisa dos produtos*/
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color: #EDEDED;
+    list-style:none;
+/*Relacionado a barra onde ficam os itens do menu*/
+}
+
+#menu ul li { display: inline; }
+/*Deixa o menu em linha, na horizontal*/
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: #EDEDED;
+    color: black;
+    text-decoration: blink;
+    border-bottom:3px solid #EDEDED;
+
+    /*Relacionado a barra do menu*/
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid black;
+    /*Relacionado ao menu, o que aparece quando arrastamos o mouse por cima das opções*/
+}
+
+h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  position: relative;
+}
+
+body h3 {
+font-size: 20px;
+
+}
