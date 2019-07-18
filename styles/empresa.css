@@ -80,13 +80,7 @@ div form#busca button {
     /*Relacionado ao menu, o que aparece quando arrastamos o mouse por cima das opções*/
 }
 
-h3 {
-  font-size: 20px;
-  font-family: sans-serif;
-  position: relative;
-}
-
-body h3 {
+div.sobre-a-rma {
 font-size: 20px;
-
+font-family: cursive;
 }

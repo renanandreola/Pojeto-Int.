@@ -1,15 +1,15 @@
 header {
-  color: white;
+  color: black;
   font-size: 25px;
   background-color: white;
   text-align: center;
    /*Aqui temos a parte inicial do código, o CABEÇALHO*/
 }
 
-header {
+/*header {
   background: url(../images/integral-medica-suplementos.jpg);
   background-position: -5%;
-}
+}*/
 
 h1 {
   font-family: 'Rubik Mono One', sans-serif;
@@ -17,11 +17,11 @@ h1 {
   position: relative;
   /*Relacionado ao título principal*/
 }
+
 h2 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
-  color: transparent;
-  /*Relacionado a frase que está em baixo do título principal*/
+  margin-left: 20%;
+  font-size: 40px;
+  font-family: sans-serif;
 }
 
 div form {
@@ -91,6 +91,14 @@ div form#busca button {
 	width: 1275px;
 	margin: 0 auto;
 		/*Relacionado ao Banner da página*/
+}
+
+section.vitrine {
+  background-color: #FFF2E6;
+}
+
+div.Whey-basic {
+  margin-left: 300px;
 }
 
 footer {
