@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  margin-left: 20%;
+  margin-left: 18%;
   font-size: 40px;
   font-family: sans-serif;
 }
@@ -93,47 +93,55 @@ div form#busca button {
 		/*Relacionado ao Banner da página*/
 }
 
-section.vitrine {
-  background-color: #FFF2E6;
+div.content .items {
+	margin-right: 10px;
+  margin-bottom: 10px;
+	float: left;
+	width: 24%;
 }
 
-div.Whey-basic {
-  margin-left: 300px;
+div.content .items img {
+  width: 100%;
+  display: block;
+}
+
+div.promoution label {
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  display: block;
+  min-height: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.name label {
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.discount label {
+  font-size: 15px;
+  color: grey;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.value label {
+  font-size: 20px;
+  color: purple;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 footer {
-  background-color: rgb(182, 182, 182);
-  height: 300px;
-}
-
-footer h3 {
-  font-size: 30px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-footer h4 {
-  font-size: 30px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-footer div.institucional {
-  margin: 100px;
-}
-
-footer div.horarios {
-  position:relative;
-  margin: 100px;
-  left: 400px;
-  bottom: 395px;
-}
-
-footer h5 {
-  font-size: 30px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-footer div.cartao {
-  position: relative;
-  left: 1050px;
-  bottom: 660px;
+  background-color: white;
 }

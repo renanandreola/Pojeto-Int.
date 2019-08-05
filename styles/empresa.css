@@ -17,12 +17,6 @@ h1 {
   position: relative;
   /*Relacionado ao título principal*/
 }
-/*h2 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
-  color: transparent;
-  Relacionado a frase que está em baixo do título principal*/
-}
 
 div form {
   	text-align-last: center;
@@ -79,8 +73,8 @@ div form#busca button {
     border-bottom:3px solid black;
     /*Relacionado ao menu, o que aparece quando arrastamos o mouse por cima das opções*/
 }
-
-div.sobre-a-rma {
-font-size: 20px;
-font-family: cursive;
+div.about p {
+  font-size: 15px;
+  font-family: fantasy;
+  font-weight: bold;
 }
