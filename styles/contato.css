@@ -1,0 +1,146 @@
+header {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    text-align: center;
+     /*Aqui temos a parte inicial do código, o CABEÇALHO*/
+  }
+  
+  h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 70px;
+    position: relative;
+    /*Relacionado ao título principal*/
+  }
+  
+  div form {
+        text-align-last: center;
+    /*Parte onde possui o local de pesquisa do produto*/
+  }
+  
+  div form input {
+    border-width: 2px;
+    border-top: 2px;
+    line-height: 20px;
+  }
+  
+  div form#busca button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    /*Botão OK*/
+  }
+  
+  .busca-input {
+    width: 450px;
+    height:30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /*Relacionado a barra onde se faz a pesquisa dos produtos*/
+  }
+  
+  #menu ul {
+      padding:0px;
+      margin:0px;
+      background-color: #EDEDED;
+      list-style:none;
+  /*Relacionado a barra onde ficam os itens do menu*/
+  }
+  
+  #menu ul li { display: inline; }
+  /*Deixa o menu em linha, na horizontal*/
+  
+  #menu ul li a {
+      padding: 2px 10px;
+      display: inline-block;
+      background-color: #EDEDED;
+      color: black;
+      text-decoration: blink;
+      border-bottom:3px solid #EDEDED;
+  
+      /*Relacionado a barra do menu*/
+  }
+  
+  #menu ul li a:hover {
+      background-color:#D6D6D6;
+      color: #6D6D6D;
+      border-bottom:3px solid black;
+      /*Relacionado ao menu, o que aparece quando arrastamos o mouse por cima das opções*/
+  }
+
+  div.division-bar {
+    width: 100%;
+    height: 20px;
+    border: 1px solid purple;
+    display: block;
+    background-color: purple;
+  }
+
+  body h2 {
+      font-size: 35px;
+      color: purple;
+      font-weight: bold;
+      margin-left: 80px;
+  } 
+
+  body div.formulario {
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 80px;
+  }
+
+  div.contact-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+
+  div.contact-email {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+
+  div.contact-phone {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+
+  div.contact-message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+
+  div form {
+    text-align-last: inherit;
+    margin-left: 80px;
+}
+
+div form input {
+  border-width: 2px;
+  border-top: 2px;
+  line-height: 20px;
+}
+
+.busca-input {
+  width: 450px;
+  height:30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button.enviar {
+  border-width: 4px;
+  border-top: 4px;
+  line-height: 25px;
+  border-radius: 10px;
+  margin-left: 80px;
+  background-color: rgb(224, 224, 224);
+  color: solid black;
+}
+
+
+  

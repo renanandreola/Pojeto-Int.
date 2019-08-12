@@ -1,14 +1,9 @@
 header {
-  color: white;
+  color: black;
   font-size: 25px;
   background-color: white;
   text-align: center;
    /*Aqui temos a parte inicial do código, o CABEÇALHO*/
-}
-
-header {
-  background: url(../images/integral-medica-suplementos.jpg);
-  background-position: -5%;
 }
 
 h1 {
@@ -73,8 +68,27 @@ div form#busca button {
     border-bottom:3px solid black;
     /*Relacionado ao menu, o que aparece quando arrastamos o mouse por cima das opções*/
 }
-div.about p {
-  font-size: 15px;
-  font-family: fantasy;
+
+div.division-bar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid purple;
+  display: block;
+  background-color: purple;
+}
+
+body h2 {
+  font-size: 35px;
+  color: purple;
   font-weight: bold;
+  margin-left: 80px;
+} 
+
+div.text-about p {
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+div.gym-image {
+  text-align: center;
 }

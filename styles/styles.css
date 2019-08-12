@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  margin-left: 18%;
+  text-align: center;
   font-size: 40px;
   font-family: sans-serif;
 }
@@ -93,11 +93,27 @@ div form#busca button {
 		/*Relacionado ao Banner da página*/
 }
 
+div.promoution-title {
+  display: inline;
+  color: purple;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+div.division-bar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid purple;
+  display: block;
+  background-color: purple;
+}
+
 div.content .items {
 	margin-right: 10px;
   margin-bottom: 10px;
 	float: left;
-	width: 24%;
+  width: 24%;
+  background-color: white;
 }
 
 div.content .items img {
@@ -142,6 +158,7 @@ div.value label {
   cursor: pointer;
 }
 
-footer {
-  background-color: white;
+div.supino-image {
+
 }
+
