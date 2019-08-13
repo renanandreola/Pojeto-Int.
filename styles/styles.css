@@ -93,6 +93,10 @@ div form#busca button {
 		/*Relacionado ao Banner da página*/
 }
 
+body {
+  background-color: white;
+}
+
 div.promoution-title {
   display: inline;
   color: purple;
@@ -158,7 +162,59 @@ div.value label {
   cursor: pointer;
 }
 
-div.supino-image {
-
+.float-left {
+float: left;
 }
 
+body div.supino {
+  width: 50%;
+}
+body div.supino img {
+  width: 100%;
+}
+
+body div.girl  {
+  width: 50%;
+}
+body div.girl img {
+  width: 100%;
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+footer .float-left {
+  float: left;
+  background-color: black;
+  height: 50%;
+}
+
+footer h3 {
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+}
+
+footer p {
+  font-size: 15px;
+  color: white;
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer div.institucional {
+  width: 35%;
+}
+
+footer div.hour {
+  width: 35%;
+}
+
+footer div.card {
+  width: 30%;
+}
