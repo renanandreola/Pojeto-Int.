@@ -86,133 +86,166 @@ div.form-title {
 }
 
 div.name label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
+  margin-right: 25px;
 }
 div.name input {
   border-radius: 8px;
   width: 30%;
-  background-color: rgb(238, 224, 247);
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.email label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 115px;
 }
 div.email input {
   border-radius: 8px;
-  width: 22.5%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.age  label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 122px;
 }
 div.age input {
   border-radius: 8px;
-  width: 22%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.phone label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 92px;
 }
 div.phone input {
   border-radius: 8px;
-  width: 24.5%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.cep label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
+  margin-right: 132px;
 }
 div.cep input {
   border-radius: 8px;
-  width: 20.5%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.state label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 110px;
 }
 div.state select {
   border-radius: 8px;
-  width: 23%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.city label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 110px;
 }
 div.city input {
   border-radius: 8px;
-  width: 23.5%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.neighborhood label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 120px;
 }
 div.neighborhood input {
   border-radius: 8px;
-  width: 23%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.address label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 90px;
 }
 div.address input {
   border-radius: 8px;
-  width: 25.5%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.house-number label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 100px;
 }
 div.house-number input {
   border-radius: 8px;
-  width: 24.5%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.complement label {
-  font-size: 30px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  font-family: roboto,'Open Sans';
   text-align: center;
+  margin-right: 45px;
 }
 div.complement input {
   border-radius: 8px;
-  width: 29.5%;
-  background-color: rgb(238, 224, 247);
+  width: 30%;
+  background-color: white;
   padding-top: 10px;
+  height: 40;
+  border-color: black;
 }
 
 div.btn-send button {
@@ -241,6 +274,11 @@ div.result-cadastro h4 {
   color: #dc3545;;
   font-weight: bold;
   font-size: 20px;
+}
+
+body {
+  background-image: url();
+  background-repeat: no-repeat; 
 }
 
 
