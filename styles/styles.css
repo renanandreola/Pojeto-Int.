@@ -5,6 +5,17 @@ header {
   text-align: center;
    /*Aqui temos a parte inicial do código, o CABEÇALHO*/
 }
+div.carrinho {
+  
+}
+div.carrinho p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.carrinho img {
+  width: 25px;
+  height: 25px;
+}
 
 /*header {
   background: url(../images/integral-medica-suplementos.jpg);
@@ -80,6 +91,7 @@ div form#busca button {
     /*Relacionado ao menu, o que aparece quando arrastamos o mouse por cima das opções*/
 }
 
+
 .banner {
   height: 700px;
 	background-color: black;
@@ -103,7 +115,7 @@ body {
 
 div.promoution-title {
   display: inline;
-  color: purple;
+  color: #007bff;
   font-weight: bold;
   font-size: 30px;
 }
@@ -137,6 +149,7 @@ div.promoution label {
   min-height: auto;
   text-align: center;
   cursor: pointer;
+  width: 100%;
 }
 
 div.name label {
@@ -159,7 +172,7 @@ div.discount label {
 
 div.value label {
   font-size: 20px;
-  color: purple;
+  color: #007bff;
   display: block;
   text-align: center;
   font-weight: bold;
@@ -183,8 +196,9 @@ body div.supino img {
 
 footer .float-left {
   float: left;
-  background-color: #007bff;
+  
   height: 50%;
+  
 }
 
 footer h3 {
@@ -205,12 +219,16 @@ footer p {
 
 footer div.institucional {
   width: 35%;
+  background-image: url(https://lh3.googleusercontent.com/ja0U68IyIFEpkbS3SEASBJVPVLZQP1zlsP7U_X6cTbLC3AsbdoEdATzzNzI_K7u9ptzL_A=s90);
 }
 
 footer div.hour {
   width: 35%;
+  background-image: url(https://lh3.googleusercontent.com/ja0U68IyIFEpkbS3SEASBJVPVLZQP1zlsP7U_X6cTbLC3AsbdoEdATzzNzI_K7u9ptzL_A=s90);
 }
 
 footer div.card {
   width: 30%;
+  background-image: url(https://lh3.googleusercontent.com/ja0U68IyIFEpkbS3SEASBJVPVLZQP1zlsP7U_X6cTbLC3AsbdoEdATzzNzI_K7u9ptzL_A=s90);
 }
+

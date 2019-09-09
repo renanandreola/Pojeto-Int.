@@ -72,10 +72,11 @@ div form#busca button {
 div.division-bar {
   width: 100%;
   height: 20px;
-  border: 1px solid purple;
+  border: 1px solid rgba(173, 173, 173, 0.616);
   display: block;
-  background-color: purple;
+  background-color: rgba(204, 204, 204, 0.918);
 }
+
 
 body h2 {
   font-size: 35px;
@@ -84,6 +85,12 @@ body h2 {
   margin-left: 80px;
 } 
 
+div.about div.float-left {
+  float: left;
+  height: 50%;
+  width: 50%; 
+}
+
 div.text-about p {
   font-size: 20px;
   margin-left: 80px;
@@ -91,4 +98,38 @@ div.text-about p {
 
 div.gym-image {
   text-align: center;
+}
+
+footer .float-left {
+  float: left;
+  background-color: #007bff;
+  height: 50%;
+}
+
+footer h3 {
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+}
+
+footer p {
+  font-size: 15px;
+  color: white;
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer div.institucional {
+  width: 35%;
+}
+
+footer div.hour {
+  width: 35%;
+}
+
+footer div.card {
+  width: 30%;
 }

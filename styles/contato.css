@@ -83,12 +83,14 @@ div form#busca button {
 div.form-title {
   font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #EDEDED; 
 }
 
 div.name label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   margin-right: 25px;
+  color: #EDEDED;
 }
 div.name input {
   border-radius: 8px;
@@ -96,14 +98,16 @@ div.name input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.email label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 115px;
+  color: #EDEDED;
 }
 div.email input {
   border-radius: 8px;
@@ -111,14 +115,16 @@ div.email input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.age  label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 122px;
+  color: #EDEDED;
 }
 div.age input {
   border-radius: 8px;
@@ -126,14 +132,16 @@ div.age input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.phone label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 92px;
+  color: #EDEDED;
 }
 div.phone input {
   border-radius: 8px;
@@ -141,13 +149,15 @@ div.phone input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.cep label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   margin-right: 132px;
+  color: #EDEDED;
 }
 div.cep input {
   border-radius: 8px;
@@ -155,14 +165,16 @@ div.cep input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.state label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 110px;
+  color: #EDEDED;
 }
 div.state select {
   border-radius: 8px;
@@ -170,14 +182,16 @@ div.state select {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.city label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 110px;
+  color: #EDEDED;
 }
 div.city input {
   border-radius: 8px;
@@ -185,14 +199,16 @@ div.city input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.neighborhood label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 120px;
+  color: #EDEDED;
 }
 div.neighborhood input {
   border-radius: 8px;
@@ -200,14 +216,16 @@ div.neighborhood input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.address label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 90px;
+  color: #EDEDED;
 }
 div.address input {
   border-radius: 8px;
@@ -215,14 +233,16 @@ div.address input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.house-number label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 100px;
+  color: #EDEDED;
 }
 div.house-number input {
   border-radius: 8px;
@@ -230,14 +250,16 @@ div.house-number input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.complement label {
   font-size: 20px;
-  font-family: roboto,'Open Sans';
+  font-family: sans-serif;
   text-align: center;
   margin-right: 45px;
+  color: #EDEDED;
 }
 div.complement input {
   border-radius: 8px;
@@ -245,27 +267,28 @@ div.complement input {
   background-color: white;
   padding-top: 10px;
   height: 40;
+  border: 1px solid black;
   border-color: black;
 }
 
 div.btn-send button {
-  border-radius: 10px;
-  width: 10%;
-  height: 4%;
+  border-radius: 8px;
+  width: 14%;
+  height: 6%;
   background-color: #007bff;
   border-color: #007bff;
 }
 
 div.btn-send button.btn-text {
   color: white;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 div.result-cadastro {
   text-align: center;
 }
 
-div.result-cadastro h4 {
+/*div.result-cadastro h4 {
   font-size: 25px;
   color: black;
 }
@@ -274,11 +297,55 @@ div.result-cadastro h4 {
   color: #dc3545;;
   font-weight: bold;
   font-size: 20px;
-}
+}*/
 
 body {
-  background-image: url();
+  background-image: url(http://www.workoutpampulha.com.br/images/slider-banner2.jpg);
   background-repeat: no-repeat; 
+}
+div.division-bar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid rgba(173, 173, 173, 0.616);
+  display: block;
+  background-color: rgba(204, 204, 204, 0.918);
+}
+footer .float-left {
+  float: left;
+  
+  height: 50%;
+  
+}
+
+footer h3 {
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+}
+
+footer p {
+  font-size: 15px;
+  color: white;
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer div.institucional {
+  width: 35%;
+  background-image: url(https://lh3.googleusercontent.com/ja0U68IyIFEpkbS3SEASBJVPVLZQP1zlsP7U_X6cTbLC3AsbdoEdATzzNzI_K7u9ptzL_A=s90);
+}
+
+footer div.hour {
+  width: 35%;
+  background-image: url(https://lh3.googleusercontent.com/ja0U68IyIFEpkbS3SEASBJVPVLZQP1zlsP7U_X6cTbLC3AsbdoEdATzzNzI_K7u9ptzL_A=s90);
+}
+
+footer div.card {
+  width: 30%;
+  background-image: url(https://lh3.googleusercontent.com/ja0U68IyIFEpkbS3SEASBJVPVLZQP1zlsP7U_X6cTbLC3AsbdoEdATzzNzI_K7u9ptzL_A=s90);
 }
 
 

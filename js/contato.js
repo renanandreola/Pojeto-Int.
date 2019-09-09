@@ -22,52 +22,52 @@ function send (event) {
     var result = $("#result");
   
     if (name.split(" ").length < 2) {
-      errors.push("Favor preencher o nome e sobrenome");
+      errors.push("Favor preencher o nome e sobrenome" + ", ");
     }
     if (email=="") {
-      errors.push("Favor informar o e-mail");
+      errors.push("Favor informar o e-mail" + ", ");
     }
     if (isNaN(age)) {
-      errors.push("Campo idade obrigatório");
+      errors.push("Campo idade obrigatório" + ", ");
     }
     if (age < 18){
-      errors.push("Permitido somente maiores de 18 anos");
+      errors.push("Permitido somente maiores de 18 anos" + ", ");
     }
     if (isNaN(phone)) {
-      errors.push("Campo telefone obrigatório");
+      errors.push("Campo telefone obrigatório" + ", ");
     } else {
     if (phone.toString().length<10){
-      errors.push("Favor informar telefone válido");
+      errors.push("Favor informar telefone válido" + ", ");
       }
     }
     if (cep=="") {
-      errors.push("Campo CEP obrigatório");
+      errors.push("Campo CEP obrigatório" + ", ");
     }
     if (state=="") {
-      errors.push("Campo estado obrigatório");
+      errors.push("Campo estado obrigatório" + ", ");
     }
     if (city=="") {
-      errors.push("Campo cidade obrigatório");
+      errors.push("Campo cidade obrigatório" + ", ");
     }
     if (neighborhood=="") {
-      errors.push("Campo bairro obrigatório");
+      errors.push("Campo bairro obrigatório" + ", ");
     }
     if (address=="") {
-      errors.push("Campo endereço obrigatório");
+      errors.push("Campo endereço obrigatório" + ", ");
     }
     if (number=="") {
-      errors.push("Campo número obrigatório");
+      errors.push("Campo número obrigatório" + ", ");
     }
     if (complement=="") {
-      errors.push("Campo complemento obrigatório");
+      errors.push("Campo complemento obrigatório" + ", ");
     }
     if (errors.length>0) {
       //result.innerHTML = errors.join("</br>"); Imprimir o result javascript puro
-      $("#result").html(errors.join("</br>"))
+      alert(errors.join(""))
     }
     else {
       //result.innerHTML = (name + ", parabéns! seus dados foram preenchidos com sucesso.");Imprimir o result javascript puro
-      $("#result").html(name + ", parabéns! seus dados foram preenchidos com sucesso.");
+      alert(name + ", parabéns! seus dados foram preenchidos com sucesso.");
       clear();
     }
   }
